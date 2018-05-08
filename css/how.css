@@ -1,0 +1,42 @@
+p.welcome{
+	font-family: 'Hammersmith One', sans-serif
+}
+a.button{
+	font-family: 'Acme', sans-serif;
+}
+
+h3.title{
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+}
+
+p.inf {
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+}
+
+iframe.sizee{
+    width: 560px;
+    height: 315px;
+    border-style: solid;
+    border-width: 5px;
+
+}
+div.position{
+
+	text-align:center;
+
+}
+
+footer {
+	position: static;
+    width: 100%;    
+}
+
+p.footertex{
+
+	text-align: fixed;
+	font-family: 'Acme', sans-serif;
+	color:white;
+}
+

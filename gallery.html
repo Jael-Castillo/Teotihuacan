@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Galeria</title>
+<!--Tipos de letra-->
+  <link href="https://fonts.googleapis.com/css?family=Acme|Archivo+Black|Hammersmith+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<!------------------>
+
+  <link rel="icon" type="img/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/nivo-slider.css">
+  <link rel="stylesheet" href="css/mi-slider.css">
+  <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="js/jquery.nivo.slider.js"></script>
+
+  <script type="text/javascript"> 
+    $(window).on('load', function() {
+        $('#slider').nivoSlider(); 
+    }); 
+  </script>
+
+
+
+</head>
+  <body>
+
+      <section class="hero is-warning is-bold">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  <p class="welcome">Galeria</p>
+                </h1>
+
+              </div>
+            </div>
+          </section>
+          <nav class="navbar is-dark">
+            <div class="buttons has-addons">
+              <a href="index.html" class="button is-medium is-focused is-dark">Inicio</a>
+              <a href="where.html" class="button is-medium is-focused is-dark">¿Dónde esta localizada?</a>
+              <a href="how.html" class="button is-medium is-focused is-dark">¿Cómo llegar?</a>
+              <a href="schedules.html" class="button is-medium is-focused is-dark">Horarios</a>
+            </div>
+          </nav>
+          <br>
+          <br>
+          <section>
+            <h3 class="title is-3">Teotihuacan</h3><p class="inf">
+            Te mostramos algunas de las mejores imagenes.</p>
+            <br>
+            <br>
+          </section>
+          
+            <div class="slider-wrapper theme-mi-slider">
+                <div id="slider" class="nivoSlider">     
+                    <img src="img/1.jpg" alt="" title="#htmlcaption1" />    
+                    <img src="img/2.jpg" alt="" title="#htmlcaption2" />    
+                    <img src="img/3.jpg" alt="" title="#htmlcaption3" /> 
+                    <img src="img/4.jpg" alt="" title="#htmlcaption3" />
+                </div> 
+                <div id="htmlcaption1" class="nivo-html-caption">     
+                    <h3 class="title is-3" style="color: white;">Bienvenido a las piramides de </h3>
+                   <h3 class="title is-3" style="color: white;">Teotihuacan</h3>
+                </div>
+                <div id="htmlcaption2" class="nivo-html-caption">     
+                    <h3 class="title is-3" style="color: white;">Disfruta de su hermoso paisaje</h3>
+                </div>
+                <div id="htmlcaption3" class="nivo-html-caption">     
+                    <h3 class="title is-3" style="color: white;">Ven con tu familia</h3>
+                </div>
+                <div id="htmlcaption3" class="nivo-html-caption">     
+                    <h3 class="title is-3" style="color: white;">No dejes pasar la oportunidad</h3>
+                </div>
+              </div>
+         
+          <br>
+          <br>
+          <footer style="background-color: #363636" class="footer has-text-centered" roler="footer">
+            <p class="footertex">Pagina informativa realizada por alumnos de la UPIICSA</p>
+            <br>
+            <i class="fab fa-3x fa-facebook-square sr-contact" style="color: white;"></i>
+            <i class="fab fa-3x fa-instagram sr-contact" style="color: white;"></i>
+            <i class="fab fa-3x fa-twitter-square sr-contact" style="color: white;"></i>
+            <p class="footertex">Todos los derechos reservados &copy</p>
+          </footer>
+
+
+  </body>
+</html>
